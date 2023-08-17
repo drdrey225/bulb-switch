@@ -86,7 +86,7 @@ body {
 
 .main {
    border: 0px solid rgb(185, 53, 53);
-   width: 50%;
+   /* width: ; */
    height: 470px;
    display: flex;
    flex-direction: column;
@@ -101,22 +101,22 @@ body {
 }
 
 .main .bulb-box {
-   position: absolute;
-   top: 120px;
-   right: 39px;
-   gap: 30px;
+   padding: 10px;
+   position: relative;
+   border: 0px solid red;
+   width: fit-content;
+   top: 0px;
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
 
 .main .bulb-box .btn_switch {
-   margin-left: 20px;
    background: transparent;
    outline: none;
    border: 1px solid rgb(168, 36, 36);
-   width: 180px;
-   height: 65px;
+   width: 150px;
+   height: 50px;
    border-radius: 10px;
    font-weight: bold;
    cursor: pointer;
@@ -125,7 +125,7 @@ body {
    font-size: 1.0em;
    box-shadow: 1px 4px 15px rgb(27, 18, 1);
    position: relative;
-   top: 100px
+   top: 150px
 }
 
 .main .bulb-box .btn_switch:hover {
@@ -145,7 +145,7 @@ body {
 #bulb {
    width: 150px;
    position: relative;
-   top: -75px;
+   top: -65px;
    
 }
 
@@ -177,18 +177,14 @@ body {
       background: transparent;
       outline: none;
       position: relative;
-      top: 100px;
+      top: 120px;
       width: 220px;
-      height: 50px;
-      /* right: 10px; */
-      
+      height: 50px; 
    }
 
    .main .bulb-box {
       position: relative;
       top: 20px; 
-      left:-9px;
-      gap: 0px; 
       width: 100%;
       padding: 0px 20px;
    }
